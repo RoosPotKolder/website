@@ -1,0 +1,128 @@
+body { 
+    background-color: rgb(169, 255, 195);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+div {
+    margin-bottom: 27px;
+}
+
+.header { 
+    padding-bottom: 16px;
+    padding-top: 16px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 255, 195);
+    border-bottom: 1px solid rgba(84, 197, 94, 0.75);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    color: black;
+    font-size: 21px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header a:hover {
+    font-weight: bold;
+}
+
+.main { 
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 70px;
+    padding-top: 80px;
+}
+
+.footer {
+    border-top: 1px solid rgba(84, 197, 94, 0.75);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    overflow-wrap: normal;
+    line-height: 22px;
+    background-color: rgb(169, 255, 195);
+}
+
+.list { 
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow-y: auto;
+}
+.list li {
+    margin-bottom: 8px;
+}
+.list a {
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: none;
+    overflow-wrap: normal;
+    margin-bottom: 4px;
+}
+.list a:hover {
+    font-weight: bold;
+}
+
+.centerImage {
+    text-align: center;
+}
+
+.mainImage {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.logo {
+    margin-top: 4px;
+    height: 26px;
+}
+
+.icon {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+}
+.icon:hover {
+    width: 30px;
+    height: 30px;
+}
+.icon-li {
+    background-image: url(linkedin.svg);
+}
+.icon-rg {
+    background-image: url(researchgate.svg);
+}
+
+.flag {
+    width: 24px; 
+    height: 12px;
+}
+
+.registration {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+    .list {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
